@@ -15,15 +15,13 @@ public class Task5 {
         	System.out.print("Enter Element No."+(i+1)+": ");
         	numbers.add(scanner.nextDouble());
         }
-
         double largest = Collections.max(numbers);
 
         if (numbers.get(0).equals(numbers.get(1)) && numbers.get(0).equals(numbers.get(2))){
             System.out.println("All are equal");
         } else {
 
-        System.out.println("The largest number is: " + largest);
-                
+        System.out.println("The largest number is: " + largest); 
             }
             scanner.close();
 }
