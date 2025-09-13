@@ -3,7 +3,7 @@ package chapter4;
 public class Task8 {
 
     // Calculate the cumulative sum for each parameter
-    public static int[] cumulativeSum(int... numbers) {
+        public static int[] cumulativeSum(int... numbers) {
         int[] cumulativeSums = new int[numbers.length];
         int totalSum = 0;
 
