@@ -25,7 +25,7 @@ public class Task8 {
         
         // Print the cumulative sums for each number
         for (int i = 0; i < result.length; i++) {
-            System.out.println("Cumulative sum up of parameter" + (i+1) + ": " + result[i]);
+            System.out.println("Cumulative sum up of parameter " + (i+1) + ": " + result[i]);
         }
     }
 }
