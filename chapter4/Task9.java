@@ -11,8 +11,8 @@ public class Task9 {
     public static int multiply(int a, int b){
         return multiplyExact(a,b);
 }
-    public static float divide(float a, float b){
-        return a/b;
+    public static float divide(int a, int b){
+        return floorDiv(a,b);
 }
 
     public static void main(String[] args) {
