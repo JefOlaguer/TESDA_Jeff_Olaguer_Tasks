@@ -1,3 +1,5 @@
+package chapter4;
+
 class Student {
     private String firstName;
     private String lastName;
