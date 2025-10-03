@@ -1,6 +1,6 @@
 package chapter4;
 
-public class Book {
+class Book {
     String title;
     String author;
     int yearPublished;
@@ -21,7 +21,7 @@ public class Book {
     }
 }
 
-class BookTest {
+public class Task11 {
     public static void main(String[] args) {
         // Instantiate three Book objects
         Book book1 = new Book("Java Programming", "John Smith", 2021, 39.99);
